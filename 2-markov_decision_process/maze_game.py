@@ -25,29 +25,28 @@ class MazeEnv(gym.Env):
              [1, 0, 0, 1, 1],
              [1, 0, 0, 0, 0]],dtype=np.bool)
 
-        self.states = [tuple(s) for s in np.argwhere(self.map == False)]
+        self.observation_space = [tuple(s) for s in np.argwhere(self.map == False)]
         self.walls  = [tuple(s) for s in np.argwhere(self.map == True)]
-        self.terminate_states = ((4,2),)  # 终止状态为字典格式
+        self.__terminal_space = ((4, 2),)  # 终止状态为字典格式
 
         # 状态转移的数据格式为字典
-        self.actions = ('n', 'e', 's', 'w')
-        self.t = pd.DataFrame(data=None, index=self.states, columns=self.actions)
+        self.action_space = ('n', 'e', 's', 'w')
+        self.t = pd.DataFrame(data=None, index=self.observation_space, columns=self.action_space)
         self._trans_make()
-        self.gamma = 0.8  # 折扣因子
         self.viewer = None
-        self.state = None
+        self.__state = None
         self.seed()
 
     def _trans_make(self):
-        for s in self.states:
-            for a in self.actions:
+        for s in self.observation_space:
+            for a in self.action_space:
                 n_s = np.array(s)
                 if a == "n":
-                    n_s += np.array([0,-1])
+                    n_s += np.array([0,1])
                 elif a == "e":
                     n_s += np.array([1,0])
                 elif a == "s":
-                    n_s += np.array([0,1])
+                    n_s += np.array([0,-1])
                 elif a == "w":
                     n_s += np.array([-1,0])
                 if (0 <= n_s).all() and (n_s <= 4).all() and not self.map[n_s[0],n_s[1]]:
@@ -57,15 +56,15 @@ class MazeEnv(gym.Env):
         r = 0.0
         n_s = state
         if action == "n":
-            n_s += np.array([0, -1])
+            n_s += np.array([0, 1])
         elif action == "e":
             n_s += np.array([1, 0])
         elif action == "s":
-            n_s += np.array([0, 1])
+            n_s += np.array([0, -1])
         elif action == "w":
             n_s += np.array([-1, 0])
         if (0 <= n_s).all() and (n_s <= 4).all() and \
-            n_s in self.terminate_states:
+            tuple(n_s) in self.__terminal_space:
             r = 1.0
         return r
 
@@ -76,30 +75,29 @@ class MazeEnv(gym.Env):
     def close(self):
         if self.viewer: self.viewer.close()
 
-
     def step(self, action):
         # 系统当前状态
-        state = self.state
-        if state in self.terminate_states:
+        state = self.__state
+        if state in self.__terminal_space:
             return state, 0, True, {}
         # 状态转移
-        if pd.isna(env.t.loc[state, action]):
+        if pd.isna(self.t[action][state]):
             next_state = state
         else:
-            next_state = self.t.loc[state, action]
-        self.state = next_state
+            next_state = self.t[action][state]
+        self.__state = next_state
 
         is_terminal = False
-        if next_state in self.terminate_states:
+        if next_state in self.__terminal_space:
             is_terminal = True
 
-        r = self._reward(self.state, action)
+        r = self._reward(self.__state, action)
 
         return next_state, r, is_terminal, {}
 
     def reset(self):
-        self.state = self.states[np.random.choice(len(self.states))]
-        return self.state
+        self.__state = self.observation_space[np.random.choice(len(self.observation_space))]
+        return self.__state
 
     def render(self, mode='human', close=False):
         if close:
@@ -150,10 +148,10 @@ class MazeEnv(gym.Env):
             self.exit.set_color(0,1,0)
             self.viewer.add_geom(self.exit)
 
-        if self.state is None:
+        if self.__state is None:
             return None
 
-        self.robotrans.set_translation(self.state[0]*unit + unit/2, self.state[1]*unit + unit/2)
+        self.robotrans.set_translation(self.__state[0] * unit + unit / 2, self.__state[1] * unit + unit / 2)
         return self.viewer.render(return_rgb_array= mode == 'rgb_array')
 
 if __name__ == '__main__':

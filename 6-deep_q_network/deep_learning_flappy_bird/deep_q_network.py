@@ -83,7 +83,7 @@ def trainNetwork(s, readout, h_fc1, sess):
     cost = tf.reduce_mean(tf.square(y - readout_action))
     train_step = tf.train.AdamOptimizer(1e-6).minimize(cost)
 
-    # open up a game state to communicate with emulator
+    # open up a game __state to communicate with emulator
     game_state = game.GameState()
 
     # store the previous observations in replay memory
@@ -93,7 +93,7 @@ def trainNetwork(s, readout, h_fc1, sess):
     a_file = open("logs_" + GAME + "/readout.txt", 'w')
     h_file = open("logs_" + GAME + "/hidden.txt", 'w')
 
-    # get the first state by doing nothing and preprocess the image to 80x80x4
+    # get the first __state by doing nothing and preprocess the image to 80x80x4
     do_nothing = np.zeros(ACTIONS)
     do_nothing[0] = 1
     x_t, r_0, terminal = game_state.frame_step(do_nothing)
@@ -135,7 +135,7 @@ def trainNetwork(s, readout, h_fc1, sess):
         if epsilon > FINAL_EPSILON and t > OBSERVE:
             epsilon -= (INITIAL_EPSILON - FINAL_EPSILON) / EXPLORE
 
-        # run the selected action and observe next state and reward
+        # run the selected action and observe next __state and reward
         x_t1_colored, r_t, terminal = game_state.frame_step(a_t)
         x_t1 = cv2.cvtColor(cv2.resize(x_t1_colored, (80, 80)), cv2.COLOR_BGR2GRAY)
         ret, x_t1 = cv2.threshold(x_t1, 1, 255, cv2.THRESH_BINARY)

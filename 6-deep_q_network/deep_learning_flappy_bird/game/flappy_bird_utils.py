@@ -1,7 +1,7 @@
 import pygame
 import sys
 def load():
-    # path of player with different states
+    # path of player with different observation_space
     PLAYER_PATH = (
             'assets/sprites/redbird-upflap.png',
             'assets/sprites/redbird-midflap.png',

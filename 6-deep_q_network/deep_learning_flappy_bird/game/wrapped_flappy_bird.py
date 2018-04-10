@@ -64,7 +64,7 @@ class GameState:
         terminal = False
 
         if sum(input_actions) != 1:
-            raise ValueError('Multiple input actions!')
+            raise ValueError('Multiple input action_space!')
 
         # input_actions[0] == 1: do nothing
         # input_actions[1] == 1: flap the bird

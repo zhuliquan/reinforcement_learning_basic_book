@@ -46,7 +46,7 @@ class QTableAgent(Agent):
 
     def check_state_exist(self, state):
         if tuple(state) not in self.q_table.columns:
-            # append new state to q table
+            # append new __state to q table
             self.q_table[tuple(state)] = [0]*len(self.actions)
 
     def choose_action(self, observation):
@@ -54,7 +54,7 @@ class QTableAgent(Agent):
         self.check_state_exist(observation)
         if np.random.uniform() < self.epsilon:
             state_action = self.q_table[observation]
-            state_action = state_action.reindex(np.random.permutation(state_action.index))     # some actions have same value
+            state_action = state_action.reindex(np.random.permutation(state_action.index))     # some action_space have same value
             action = state_action.argmax()
         else:
             action = np.random.choice(self.actions)
@@ -81,9 +81,9 @@ class QLearningAgent(QTableAgent):
         self.check_state_exist(s_)
         q_predict = self.q_table[s][a]
         if not done:
-            q_target = r + self.reward_decay * self.q_table[s_].max()  # next state is not terminal
+            q_target = r + self.reward_decay * self.q_table[s_].max()  # next __state is not terminal
         else:
-            q_target = r  # next state is terminal
+            q_target = r  # next __state is terminal
         self.q_table[s][a] += self.learning_rate * (q_target - q_predict)  # update
 
     def train(self,env,max_iterator = 1000):
@@ -101,7 +101,7 @@ class QLearningAgent(QTableAgent):
                 # RL choose action based on observation
                 action = self.choose_action(observation)
 
-                # RL take action and get next observation and reward
+                # RL take action and get next observation and _reward
                 observation_, reward, done = env.step(observation, action, step)
 
                 # RL learn from this transition
@@ -125,9 +125,9 @@ class SarsaAgent(QTableAgent):
         self.check_state_exist(s_)
         q_predict = self.q_table[s][a]
         if not done:
-            q_target = r + self.reward_decay * self.q_table[s_][a_] # next state is not terminal
+            q_target = r + self.reward_decay * self.q_table[s_][a_] # next __state is not terminal
         else:
-            q_target = r  # next state is terminal
+            q_target = r  # next __state is terminal
         self.q_table[s][a] += self.learning_rate*(q_target - q_predict)  # update
 
     def train(self,env,max_iterator):
@@ -143,7 +143,7 @@ class SarsaAgent(QTableAgent):
                 # fresh env
                 env.render()
 
-                # RL take action and get next observation and reward
+                # RL take action and get next observation and _reward
                 observation_, reward, done = env.step(action, step)
 
                 # RL choose action based on observarion_

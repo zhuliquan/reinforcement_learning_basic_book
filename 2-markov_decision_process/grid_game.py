@@ -31,17 +31,17 @@ class GridEnv(gym.Env):
 
     def __init__(self):
 
-        self.states = (1, 2, 3, 4, 5, 6, 7, 8)  # 状态空间
+        self.observation_space = (1, 2, 3, 4, 5, 6, 7, 8)  # 状态空间
         self.x = [140, 220, 300, 380, 460, 140, 300, 460]
         self.y = [250, 250, 250, 250, 250, 150, 150, 150]
-        self.terminate_states = dict()  # 终止状态为字典格式
-        self.terminate_states[6] = 1
-        self.terminate_states[7] = 1
-        self.terminate_states[8] = 1
+        self.__terminal_space = dict()  # 终止状态为字典格式
+        self.__terminal_space[6] = 1
+        self.__terminal_space[7] = 1
+        self.__terminal_space[8] = 1
 
         # 状态转移的数据格式为字典
-        self.actions = ('n', 'e', 's', 'w')
-        self.t = pd.DataFrame(data=None, index=self.states, columns=self.actions)
+        self.action_space = ('n', 'e', 's', 'w')
+        self.t = pd.DataFrame(data=None, index=self.observation_space, columns=self.action_space)
         self.t.loc[1, "s"] = 6
         self.t.loc[1, "e"] = 2
         self.t.loc[2, "w"] = 1
@@ -53,12 +53,12 @@ class GridEnv(gym.Env):
         self.t.loc[4, "e"] = 5
         self.t.loc[5, "s"] = 8
         self.t.loc[5, "w"] = 4
-        self.gamma = 0.8  # 折扣因子
+        self.__gamma = 0.8  # 折扣因子
         self.viewer = None
-        self.state = None
+        self.__state = None
         self.seed()
 
-    def reward(self, state, action):
+    def _reward(self, state, action):
         r = 0.0
         if action == "s" and state in (1, 5):
             r = -1.0
@@ -73,47 +73,30 @@ class GridEnv(gym.Env):
     def close(self):
         if self.viewer: self.viewer.close()
 
-    def get_terminal(self):
-        return self.terminate_states
-
-    def get_gamma(self):
-        return self.gamma
-
-    def get_states(self):
-        return self.states
-
-    def get_action(self):
-        return self.actions
-
-    def get_terminate_states(self):
-        return self.terminate_states
-
-    def set_action(self, s):
-        self.state = s
 
     def step(self, action):
         # 系统当前状态
-        state = self.state
-        if state in self.terminate_states:
+        state = self.__state
+        if state in self.__terminal_space:
             return state, 0, True, {}
         # 状态转移
-        if pd.isna(env.t.loc[state, action]):
+        if pd.isna(self.t.loc[state, action]):
             next_state = state
         else:
             next_state = self.t.loc[state, action]
-        self.state = next_state
+        self.__state = next_state
 
         is_terminal = False
-        if next_state in self.terminate_states:
+        if next_state in self.__terminal_space:
             is_terminal = True
 
-        r = self.reward(self.state, action)
+        r = self._reward(self.__state, action)
 
         return next_state, r, is_terminal, {}
 
     def reset(self):
-        self.state = np.random.choice(self.states)
-        return self.state
+        self.__state = np.random.choice(self.observation_space)
+        return self.__state
 
     def render(self, mode='human', close=False):
         if close:
@@ -188,10 +171,10 @@ class GridEnv(gym.Env):
             self.viewer.add_geom(self.gold)
             self.viewer.add_geom(self.robot)
 
-        if self.state is None:
+        if self.__state is None:
             return None
 
-        self.robotrans.set_translation(self.x[self.state - 1], self.y[self.state - 1])
+        self.robotrans.set_translation(self.x[self.__state - 1], self.y[self.__state - 1])
         return self.viewer.render(return_rgb_array= mode == 'rgb_array')
 
 

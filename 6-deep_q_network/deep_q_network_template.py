@@ -150,6 +150,6 @@ def train_neural_network(input_image):
 
             input_image_data = input_image_data1
             n = n+1
-            print(n, "epsilon:", epsilon, " " ,"action:", maxIndex, " " ,"reward:", reward)
+            print(n, "epsilon:", epsilon, " " ,"action:", maxIndex, " " ,"_reward:", reward)
 
 train_neural_network(input_image)
