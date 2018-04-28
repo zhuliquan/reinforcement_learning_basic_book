@@ -26,11 +26,11 @@ class GridMDP():
         return state_
 
 def value_iterate(mdp):
-    v_s = pd.Series(data=np.zeros(shape=len(mdp.state_space)), index=mdp.state_space)
     state_space = mdp.state_space
     action_space = mdp.action_space
     gamma = mdp.gamma
     reward = mdp.reward
+    v_s = pd.Series(data=np.zeros(shape=len(state_space)), index=state_space)
     policy = pd.Series(index=state_space)
     while True:
         print(v_s)
@@ -40,14 +40,12 @@ def value_iterate(mdp):
             for action in action_space:
                 state_ = mdp.transform(state,action)
                 if state_ in mdp.terminal_space:
-                    v_s_a[action] = 0.0
+                    v_s_a[action] = reward
                 else:
-                    v_s_a[action] = v_s_[state_]
-
-            v_s_a = reward + gamma * v_s_a
+                    v_s_a[action] = reward + gamma * v_s_[state_]
 
             v_s[state] = v_s_a.max()
-            policy[state] = v_s_a.argmax()
+            policy[state] = np.random.choice(v_s_a[v_s_a == v_s[state]].index)
 
         if (np.abs(v_s_ - v_s) < 1e-8).all():
             break

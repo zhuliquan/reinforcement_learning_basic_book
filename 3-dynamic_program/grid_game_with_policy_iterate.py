@@ -27,7 +27,7 @@ class GridMDP():
 
 def policy_evaluate(v_s,policy,mdp):
     state_space = mdp.state_space
-    gama   = mdp.gamma
+    gamma   = mdp.gamma
     reward = mdp.reward
     while True:
         v_s_ = v_s.copy()
@@ -37,9 +37,9 @@ def policy_evaluate(v_s,policy,mdp):
             if state_ in mdp.terminal_space: # 发生转移
                 v_s[state] = reward + 0.0
             elif state_ != state:       # 终点位置
-                v_s[state] = reward + gama * v_s_[state_]
+                v_s[state] = reward + gamma * v_s_[state_]
             else:                       # 没有发生转移
-                v_s[state] = reward + gama * v_s_[state_]
+                v_s[state] = reward + gamma * v_s_[state_]
 
         if (np.abs(v_s_ - v_s) < 1e-8).all():
             break
@@ -56,12 +56,13 @@ def policy_improve(v_s,mdp):
         for action in action_space:
             state_ = mdp.transform(state,action)
             if state_ in mdp.terminal_space:
-                v_s_a[action] = 0.0
+                v_s_a[action] = reward
             else:
-                v_s_a[action] =  v_s[state_]
+                v_s_a[action] = reward + gamma *  v_s[state_]
 
-        v_s_a = reward + gamma * v_s_a
-        policy_[state] = v_s_a.argmax()
+        # 随机选取最大的值
+        m = v_s_a.max()
+        policy_[state] = np.random.choice(v_s_a[v_s_a == m].index)
     return policy_
 
 def policy_iterate(mdp):
