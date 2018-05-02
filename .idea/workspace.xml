@@ -6,68 +6,11 @@
     </enabled-run-configurations>
   </component>
   <component name="ChangeListManager">
-    <list id="d3b3a59b-7c92-42f2-9069-688048220387" name="New changelist (3)" comment="" />
     <list default="true" id="c18b35e2-c9bc-424e-a35b-58e0ec458140" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/reinforcement_learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/reinforcement_learning.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-dynamic_program/grid_game_with_policy_iterate.py" beforeDir="false" afterPath="$PROJECT_DIR$/3-dynamic_program/grid_game_with_policy_iterate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-dynamic_program/grid_game_with_value_iterate.py" beforeDir="false" afterPath="$PROJECT_DIR$/3-dynamic_program/grid_game_with_value_iterate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-dynamic_program/maze_game_with_dynamic_program.py" beforeDir="false" afterPath="$PROJECT_DIR$/3-dynamic_program/maze_game_with_dynamic_program.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_learning_flappy_bird/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_learning_flappy_bird/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_learning_flappy_bird/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_learning_flappy_bird/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_learning_flappy_bird/assets/audio/die.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_learning_flappy_bird/assets/audio/die.ogg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_learning_flappy_bird/assets/audio/die.wav" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_learning_flappy_bird/assets/audio/die.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_learning_flappy_bird/assets/audio/hit.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_learning_flappy_bird/assets/audio/hit.ogg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_learning_flappy_bird/assets/audio/hit.wav" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_learning_flappy_bird/assets/audio/hit.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_learning_flappy_bird/assets/audio/point.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_learning_flappy_bird/assets/audio/point.ogg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_learning_flappy_bird/assets/audio/point.wav" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_learning_flappy_bird/assets/audio/point.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_learning_flappy_bird/assets/audio/swoosh.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_learning_flappy_bird/assets/audio/swoosh.ogg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_learning_flappy_bird/assets/audio/swoosh.wav" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_learning_flappy_bird/assets/audio/swoosh.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_learning_flappy_bird/assets/audio/wing.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_learning_flappy_bird/assets/audio/wing.ogg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_learning_flappy_bird/assets/audio/wing.wav" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_learning_flappy_bird/assets/audio/wing.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_learning_flappy_bird/assets/sprites/0.png" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_learning_flappy_bird/assets/sprites/0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_learning_flappy_bird/assets/sprites/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_learning_flappy_bird/assets/sprites/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_learning_flappy_bird/assets/sprites/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_learning_flappy_bird/assets/sprites/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_learning_flappy_bird/assets/sprites/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_learning_flappy_bird/assets/sprites/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_learning_flappy_bird/assets/sprites/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_learning_flappy_bird/assets/sprites/4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_learning_flappy_bird/assets/sprites/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_learning_flappy_bird/assets/sprites/5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_learning_flappy_bird/assets/sprites/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_learning_flappy_bird/assets/sprites/6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_learning_flappy_bird/assets/sprites/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_learning_flappy_bird/assets/sprites/7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_learning_flappy_bird/assets/sprites/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_learning_flappy_bird/assets/sprites/8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_learning_flappy_bird/assets/sprites/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_learning_flappy_bird/assets/sprites/9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_learning_flappy_bird/assets/sprites/background-black.png" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_learning_flappy_bird/assets/sprites/background-black.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_learning_flappy_bird/assets/sprites/base.png" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_learning_flappy_bird/assets/sprites/base.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_learning_flappy_bird/assets/sprites/pipe-green.png" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_learning_flappy_bird/assets/sprites/pipe-green.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_learning_flappy_bird/assets/sprites/redbird-downflap.png" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_learning_flappy_bird/assets/sprites/redbird-downflap.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_learning_flappy_bird/assets/sprites/redbird-midflap.png" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_learning_flappy_bird/assets/sprites/redbird-midflap.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_learning_flappy_bird/assets/sprites/redbird-upflap.png" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_learning_flappy_bird/assets/sprites/redbird-upflap.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_learning_flappy_bird/deep_q_network.py" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_learning_flappy_bird/deep_q_network.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_learning_flappy_bird/game/flappy_bird_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_learning_flappy_bird/game/flappy_bird_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_learning_flappy_bird/game/wrapped_flappy_bird.py" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_learning_flappy_bird/game/wrapped_flappy_bird.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_learning_flappy_bird/images/flappy_bird_demp.gif" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_learning_flappy_bird/images/flappy_bird_demp.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_learning_flappy_bird/images/network.png" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_learning_flappy_bird/images/network.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_learning_flappy_bird/images/preprocess.png" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_learning_flappy_bird/images/preprocess.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_learning_flappy_bird/logs_bird/hidden.txt" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_learning_flappy_bird/logs_bird/hidden.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_learning_flappy_bird/logs_bird/readout.txt" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_learning_flappy_bird/logs_bird/readout.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_learning_flappy_bird/saved_networks/bird-dqn-2880000" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_learning_flappy_bird/saved_networks/bird-dqn-2880000" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_learning_flappy_bird/saved_networks/bird-dqn-2880000.meta" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_learning_flappy_bird/saved_networks/bird-dqn-2880000.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_learning_flappy_bird/saved_networks/bird-dqn-2890000" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_learning_flappy_bird/saved_networks/bird-dqn-2890000" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_learning_flappy_bird/saved_networks/bird-dqn-2890000.meta" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_learning_flappy_bird/saved_networks/bird-dqn-2890000.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_learning_flappy_bird/saved_networks/bird-dqn-2900000" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_learning_flappy_bird/saved_networks/bird-dqn-2900000" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_learning_flappy_bird/saved_networks/bird-dqn-2900000.meta" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_learning_flappy_bird/saved_networks/bird-dqn-2900000.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_learning_flappy_bird/saved_networks/bird-dqn-2910000" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_learning_flappy_bird/saved_networks/bird-dqn-2910000" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_learning_flappy_bird/saved_networks/bird-dqn-2910000.meta" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_learning_flappy_bird/saved_networks/bird-dqn-2910000.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_learning_flappy_bird/saved_networks/bird-dqn-2920000" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_learning_flappy_bird/saved_networks/bird-dqn-2920000" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_learning_flappy_bird/saved_networks/bird-dqn-2920000.meta" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_learning_flappy_bird/saved_networks/bird-dqn-2920000.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_learning_flappy_bird/saved_networks/checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_learning_flappy_bird/saved_networks/checkpoint" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_learning_flappy_bird/saved_networks/pretrained_model/bird-dqn-policy" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_learning_flappy_bird/saved_networks/pretrained_model/bird-dqn-policy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_q_network_algortihm.png" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_q_network_algortihm.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-deep_q_network/deep_q_network_template.py" beforeDir="false" afterPath="$PROJECT_DIR$/6-value_function_approximate/deep_q_network_template.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-gym_developing/grid_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/1-gym_developing/grid_game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-gym_developing/maze_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/1-gym_developing/maze_game.py" afterDir="false" />
     </list>
-    <list id="e0bd4f22-8b93-49e0-bccb-fb05407156dc" name="New changelist" comment="" />
-    <list id="58639cf4-0a38-44c2-9dc4-1d7fd66c837c" name="New changelist (2)" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,30 +19,95 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/reinforcement_learning$deep_q_network.coverage" NAME="deep_q_network Coverage Results" MODIFIED="1509532408706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepLearningFlappyBird-master" />
+    <SUITE FILE_PATH="coverage/reinforcement_learning$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1508814582198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pursuit_game" />
+    <SUITE FILE_PATH="coverage/reinforcement_learning_zlq$deep_q_network__2_.coverage" NAME="deep_q_network (2) Coverage Results" MODIFIED="1522234573164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deep_learning_video_games" />
     <SUITE FILE_PATH="coverage/reinforcement_learning$test.coverage" NAME="test Coverage Results" MODIFIED="1508750228711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenAI_gym" />
+    <SUITE FILE_PATH="coverage/reinforcement_learning$maze_env.coverage" NAME="maze_env Coverage Results" MODIFIED="1509249528187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/push_box_game" />
+    <SUITE FILE_PATH="coverage/reinforcement_learning_zlq$grid_mdq.coverage" NAME="grid_mdq Coverage Results" MODIFIED="1523104955551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2-MDP" />
     <SUITE FILE_PATH="coverage/reinforcement_learning_zlq$deep_q_network.coverage" NAME="deep_q_network Coverage Results" MODIFIED="1523193597394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6-DQN/deep_learning_flappy_bird" />
     <SUITE FILE_PATH="coverage/reinforcement_learning_zlq$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1523193950307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5-TD/push_box_game" />
-    <SUITE FILE_PATH="coverage/reinforcement_learning_zlq$our_life.coverage" NAME="our_life Coverage Results" MODIFIED="1523099705954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2-MDP" />
-    <SUITE FILE_PATH="coverage/reinforcement_learning$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1508814582198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pursuit_game" />
     <SUITE FILE_PATH="coverage/reinforcement_learning_zlq$deep_q_network__1_.coverage" NAME="deep_q_network (1) Coverage Results" MODIFIED="1522230823561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deep_learning_flappy_bird" />
     <SUITE FILE_PATH="coverage/reinforcement_learning_zlq$grid_game.coverage" NAME="grid_game Coverage Results" MODIFIED="1523280964042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4-monte_carlo" />
-    <SUITE FILE_PATH="coverage/reinforcement_learning_zlq$grid_game_with_average_policy.coverage" NAME="grid_game_with_average_policy Coverage Results" MODIFIED="1523364604940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3-dynamic_program" />
-    <SUITE FILE_PATH="coverage/reinforcement_learning_zlq$game.coverage" NAME="game Coverage Results" MODIFIED="1523367635486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2-markov_decision_process" />
-    <SUITE FILE_PATH="coverage/reinforcement_learning_zlq$maze_game_with_dynamic_program.coverage" NAME="maze_game_with_dynamic_program Coverage Results" MODIFIED="1523361617476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3-dynamic_program" />
-    <SUITE FILE_PATH="coverage/reinforcement_learning$maze_env.coverage" NAME="maze_env Coverage Results" MODIFIED="1509249528187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/push_box_game" />
-    <SUITE FILE_PATH="coverage/reinforcement_learning$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1512696353757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/push_box_game" />
-    <SUITE FILE_PATH="coverage/reinforcement_learning_zlq$maze_game.coverage" NAME="maze_game Coverage Results" MODIFIED="1523180931490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2-MDP" />
     <SUITE FILE_PATH="coverage/reinforcement_learning_zlq$find_gold_coin.coverage" NAME="find_gold_coin Coverage Results" MODIFIED="1523159786281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2-MDP" />
-    <SUITE FILE_PATH="coverage/reinforcement_learning_zlq$grid_mdq.coverage" NAME="grid_mdq Coverage Results" MODIFIED="1523104955551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2-MDP" />
-    <SUITE FILE_PATH="coverage/reinforcement_learning$main.coverage" NAME="main Coverage Results" MODIFIED="1507306276002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/go_maze" />
-    <SUITE FILE_PATH="coverage/reinforcement_learning_zlq$deep_q_network__2_.coverage" NAME="deep_q_network (2) Coverage Results" MODIFIED="1522234573164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deep_learning_video_games" />
+    <SUITE FILE_PATH="coverage/reinforcement_learning_zlq$grid_game_with_average_policy.coverage" NAME="grid_game_with_average_policy Coverage Results" MODIFIED="1523364604940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3-dynamic_program" />
     <SUITE FILE_PATH="coverage/reinforcement_learning_zlq$main.coverage" NAME="main Coverage Results" MODIFIED="1523193394274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5-TD/go_maze" />
-    <SUITE FILE_PATH="coverage/reinforcement_learning_zlq$grid_game_with_value_iterate.coverage" NAME="grid_game_with_value_iterate Coverage Results" MODIFIED="1523412706821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3-dynamic_program" />
+    <SUITE FILE_PATH="coverage/reinforcement_learning_zlq$maze_game.coverage" NAME="maze_game Coverage Results" MODIFIED="1523180931490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2-MDP" />
     <SUITE FILE_PATH="coverage/reinforcement_learning_zlq$grid_game_with_policy_iterate.coverage" NAME="grid_game_with_policy_iterate Coverage Results" MODIFIED="1523412743879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3-dynamic_program" />
+    <SUITE FILE_PATH="coverage/reinforcement_learning_zlq$maze_game_with_dynamic_program.coverage" NAME="maze_game_with_dynamic_program Coverage Results" MODIFIED="1523361617476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3-dynamic_program" />
+    <SUITE FILE_PATH="coverage/reinforcement_learning_zlq$our_life.coverage" NAME="our_life Coverage Results" MODIFIED="1523099705954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2-MDP" />
+    <SUITE FILE_PATH="coverage/reinforcement_learning$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1512696353757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/push_box_game" />
+    <SUITE FILE_PATH="coverage/reinforcement_learning_zlq$grid_game_with_value_iterate.coverage" NAME="grid_game_with_value_iterate Coverage Results" MODIFIED="1523412706821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3-dynamic_program" />
+    <SUITE FILE_PATH="coverage/reinforcement_learning$deep_q_network.coverage" NAME="deep_q_network Coverage Results" MODIFIED="1509532408706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepLearningFlappyBird-master" />
+    <SUITE FILE_PATH="coverage/reinforcement_learning$main.coverage" NAME="main Coverage Results" MODIFIED="1507306276002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/go_maze" />
+    <SUITE FILE_PATH="coverage/reinforcement_learning_zlq$game.coverage" NAME="game Coverage Results" MODIFIED="1523367635486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2-markov_decision_process" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="reinforcement_learning_zlq" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="315">
+                <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="maze_game.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1-gym_developing/maze_game.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
+              <folding>
+                <element signature="e#257#349#0" />
+                <element signature="e#383#1054#0" />
+                <element signature="e#1091#1632#0" />
+                <element signature="e#1680#2104#0" />
+                <element signature="e#2145#2213#0" />
+                <element signature="e#2244#2279#0" />
+                <element signature="e#2336#2761#0" />
+                <element signature="e#2317#2822#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1-gym_developing/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="234">
+                <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -131,6 +139,7 @@
       <find>state</find>
       <find>actions</find>
       <find>overservation_space</find>
+      <find>）</find>
     </findStrings>
     <replaceStrings>
       <replace>observation_space</replace>
@@ -139,9 +148,11 @@
       <replace>terminal_space</replace>
       <replace>action_space</replace>
       <replace>state_space</replace>
+      <replace>)</replace>
     </replaceStrings>
     <dirStrings>
       <dir>D:\zhuliquan\Documents\WorkSpace\reinforcement_learning\go_maze</dir>
+      <dir>E:\zlq16\Documents\WorkSpace\reinforcement_learning_zlq\1-gym_developer</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -183,18 +194,23 @@
         <option value="$PROJECT_DIR$/3-dynamic_program/grid_game_with_greedy_policy.py" />
         <option value="$PROJECT_DIR$/2-markov_decision_process/our_life.py" />
         <option value="$PROJECT_DIR$/3-dynamic_program/grid_game_with_average_policy.py" />
-        <option value="$PROJECT_DIR$/2-markov_decision_process/grid_game.py" />
         <option value="C:/Program Files/Python36/Lib/site-packages/gym/envs/classic_control/maze_game.py" />
-        <option value="$PROJECT_DIR$/2-markov_decision_process/maze_game.py" />
         <option value="$PROJECT_DIR$/2-markov_decision_process/game.py" />
         <option value="$PROJECT_DIR$/5-temporal_difference/a.py" />
         <option value="$PROJECT_DIR$/../../../Desktop/模糊化.py" />
         <option value="$PROJECT_DIR$/../../../Desktop/cross.py" />
         <option value="$PROJECT_DIR$/../../../Desktop/max_x_y.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/3-dynamic_program/grid_game_with_policy_iterate.py" />
         <option value="$PROJECT_DIR$/3-dynamic_program/grid_game_with_value_iterate.py" />
         <option value="$PROJECT_DIR$/3-dynamic_program/maze_game_with_dynamic_program.py" />
+        <option value="$PROJECT_DIR$/4-monte_carlo/monte_carlo_sample.py" />
+        <option value="$PROJECT_DIR$/2-markov_decision_process/grid_game.py" />
+        <option value="$PROJECT_DIR$/2-markov_decision_process/maze_game.py" />
+        <option value="$PROJECT_DIR$/2-markov_decision_process/core.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/1-gym_developing/README.md" />
+        <option value="$PROJECT_DIR$/1-gym_developing/grid_game.py" />
+        <option value="$PROJECT_DIR$/1-gym_developing/maze_game.py" />
       </list>
     </option>
   </component>
@@ -204,9 +220,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="518" />
-    <option name="y" value="34" />
+    <option name="x" value="374" />
     <option name="width" value="697" />
     <option name="height" value="745" />
   </component>
@@ -226,16 +244,6 @@
               <item name="reinforcement_learning_zlq" type="b2602c69:ProjectViewProjectNode" />
               <item name="reinforcement_learning_zlq" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="reinforcement_learning_zlq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reinforcement_learning_zlq" type="462c0819:PsiDirectoryNode" />
-              <item name="2-markov_decision_process" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="reinforcement_learning_zlq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reinforcement_learning_zlq" type="462c0819:PsiDirectoryNode" />
-              <item name="3-dynamic_program" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -244,10 +252,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../crawler_learning" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\zlq16\Documents\WorkSpace\reinforcement_learning_zlq\2-markov_decision_process" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\zlq16\Documents\WorkSpace\reinforcement_learning_zlq\3-dynamic_program" />
       <recent name="E:\zlq16\Documents\WorkSpace\reinforcement_learning_zlq\5-TD" />
@@ -279,6 +290,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../Desktop/模糊化.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -297,6 +309,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../Desktop/cross.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -315,7 +328,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3-dynamic_program/grid_game_with_policy_iterate.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -334,7 +347,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3-dynamic_program/grid_game_with_value_iterate.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -353,6 +366,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../Desktop/max_x_y.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -417,7 +431,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;.&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
@@ -445,9 +459,9 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c18b35e2-c9bc-424e-a35b-58e0ec458140" name="Default" comment="" />
-      <changelist id="e0bd4f22-8b93-49e0-bccb-fb05407156dc" name="New changelist" comment="" />
-      <changelist id="58639cf4-0a38-44c2-9dc4-1d7fd66c837c" name="New changelist (2)" comment="" />
-      <changelist id="d3b3a59b-7c92-42f2-9069-688048220387" name="New changelist (3)" comment="" />
+      <changelist id="" name="New changelist" comment="" />
+      <changelist id="" name="New changelist (2)" comment="" />
+      <changelist id="" name="New changelist (3)" comment="" />
       <created>1507038322181</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -467,7 +481,21 @@
       <option name="project" value="LOCAL" />
       <updated>1523374533659</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="create directory for gym developing,and add grid_game.py and maze_game.py env's files">
+      <created>1525243516597</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1525243516597</updated>
+    </task>
+    <task id="LOCAL-00004" summary="create directory for gym developing,and add grid_game.py and maze_game.py env's files,and fix some bug in these env's files">
+      <created>1525247226161</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1525247226161</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -508,29 +536,30 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2157738" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49702382" weight="0.32868218" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5029762" side_tool="true" weight="0.32868218" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32838285" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="7" sideWeight="0.49546143" visible="true" weight="0.16422765" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.505295" side_tool="true" weight="0.3495935" />
+      <window_info anchor="right" x="0" y="0" width="295" height="554" id="Documentation" order="8" side_tool="true" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.49924356" visible="true" weight="0.32357723" />
+      <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.494705" weight="0.1495935" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49319214" weight="0.49268293" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.24962178" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4955357" weight="0.27154472" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3987034" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.494705" weight="0.31869918" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.50406504" visible="true" weight="0.25416037" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32980332" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32901135" />
+      <window_info anchor="right" x="465" y="61" width="436" height="615" id="SciView" order="6" weight="0.32980332" />
+      <window_info id="Structure" order="1" sideWeight="0.49593496" side_tool="true" weight="0.22239032" />
+      <window_info id="Favorites" order="2" sideWeight="0.3659148" side_tool="true" weight="0.2193646" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3987034" />
+      <window_info anchor="right" id="R Graphics" order="3" weight="0.32980332" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="R Graphics" order="3" weight="0.32980332" />
       <window_info anchor="right" id="R Packages" order="4" weight="0.32980332" />
-      <window_info anchor="right" x="0" y="0" width="295" height="554" id="Documentation" order="8" side_tool="true" weight="0.20877458" />
-      <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="6" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32901135" />
       <window_info anchor="right" id="Data View" order="7" weight="0.32980332" />
     </layout>
     <layout-to-restore>
@@ -595,41 +624,16 @@
       <path value="$PROJECT_DIR$/OpenAI_gym/gym" />
     </ignored-roots>
     <MESSAGE value="fix maze_game.py and grid_game.py bug&#10;add average policy,policy interate,value&#10;iterate file in dynamic_program" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix maze_game.py and grid_game.py bug&#10;add average policy,policy interate,value&#10;iterate file in dynamic_program" />
+    <MESSAGE value="create directory for gym developing,and add grid_game.py and maze_game.py env's files" />
+    <MESSAGE value="create directory for gym developing,and add grid_game.py and maze_game.py env's files,and fix some bug in these env's files" />
+    <option name="LAST_COMMIT_MESSAGE" value="create directory for gym developing,and add grid_game.py and maze_game.py env's files,and fix some bug in these env's files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="19" />
+      <option name="time" value="21" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../../Desktop/模糊化.py" />
-    <entry file="file://$PROJECT_DIR$/2-markov_decision_process/grid_game.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="85" column="50" selection-start-line="85" selection-start-column="50" selection-end-line="85" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="84">
-            <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeepLearningFlappyBird-master/logs_bird/hidden.txt" />
-    <entry file="file://$PROJECT_DIR$/DeepLearningFlappyBird-master/deep_q_network.py" />
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/sklearn/preprocessing/label.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="327" selection-start-line="327" selection-end-line="327" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/OpenAI_gym/test.py" />
     <entry file="file://$PROJECT_DIR$/6-DQN/deep_learning_video_games/wrapped_game_code/tetris_fun.py" />
     <entry file="file://$PROJECT_DIR$/6-DQN/deep_learning_video_games/wrapped_game_code/dummy_game.py" />
@@ -690,13 +694,6 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/-1120166012/numpy/random/mtrand.py" />
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/gym/core.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6363">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files/Python36/Lib/site-packages/pandas/core/indexing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
@@ -739,20 +736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2-markov_decision_process/game.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2-markov_decision_process/grid_game.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files/Python36/Lib/site-packages/scipy/linalg/decomp_svd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-719">
@@ -783,13 +766,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../Desktop/cross.py" />
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-1120166012/numpy/core/multiarray.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-869">
-          <caret line="2278" column="4" selection-start-line="2278" selection-start-column="4" selection-end-line="2278" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-1120166012/numpy/core/multiarray.py" />
     <entry file="file://C:/Program Files/Python36/Lib/site-packages/matplotlib/cm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-409">
@@ -797,13 +774,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-1120166012/numpy/random/mtrand.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="376" column="26" selection-start-line="376" selection-start-column="26" selection-end-line="376" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-1120166012/numpy/random/mtrand.py" />
     <entry file="file://C:/Program Files/Python36/Lib/site-packages/matplotlib/pyplot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -812,21 +783,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../Desktop/max_x_y.py" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="105">
-            <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files/Python36/Lib/site-packages/gym/envs/registration.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
@@ -838,9 +794,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3044">
           <caret line="160" column="8" selection-start-line="160" selection-start-column="8" selection-end-line="160" selection-end-column="8" />
-          <folding>
-            <element signature="e#478#496#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -851,13 +804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3-dynamic_program/maze_game_with_dynamic_program.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/3-dynamic_program/grid_game_with_value_iterate.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
@@ -865,10 +811,127 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/3-dynamic_program/maze_game_with_dynamic_program.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4-monte_carlo/monte_carlo_sample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-markov_decision_process/grid_game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="56" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/2-markov_decision_process/maze_game.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1596">
+          <caret line="80" column="7" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
+          <folding>
+            <element signature="e#3024#5022#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-markov_decision_process/core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-gym_developing/core.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret line="56" column="19" lean-forward="true" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-markov_decision_process/game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="315">
+            <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-gym_developing/grid_game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+          <folding>
+            <element signature="e#257#349#0" />
+            <element signature="e#384#1342#0" />
+            <element signature="e#1390#1544#0" />
+            <element signature="e#1585#1653#0" />
+            <element signature="e#1684#1719#0" />
+            <element signature="e#2241#2775#0" />
+            <element signature="e#2780#2863#0" />
+            <element signature="e#2922#6306#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/gym/core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-399">
+          <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-gym_developing/maze_game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#257#349#0" />
+            <element signature="e#383#1054#0" />
+            <element signature="e#1091#1632#0" />
+            <element signature="e#1680#2104#0" />
+            <element signature="e#2145#2213#0" />
+            <element signature="e#2244#2279#0" />
+            <element signature="e#2336#2761#0" />
+            <element signature="e#2317#2822#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-gym_developing/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="234">
+            <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
         </state>
       </provider>
     </entry>

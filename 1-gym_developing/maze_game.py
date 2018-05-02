@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 class MazeEnv(gym.Env):
     metadata = {
         'render.modes': ['human', 'rgb_array'],
-        'video.frames_per_second': 2
+        'video.frames_per_second': 1
     }
 
     def __init__(self):
@@ -52,17 +52,9 @@ class MazeEnv(gym.Env):
                 if (0 <= n_s).all() and (n_s <= 4).all() and not self.map[n_s[0],n_s[1]]:
                     self.t.loc[s,a] = tuple(n_s)
 
-    def _reward(self, state, action):
+    def _reward(self, state):
         r = 0.0
         n_s = state
-        if action == "n":
-            n_s += np.array([0, 1])
-        elif action == "e":
-            n_s += np.array([1, 0])
-        elif action == "s":
-            n_s += np.array([0, -1])
-        elif action == "w":
-            n_s += np.array([-1, 0])
         if (0 <= n_s).all() and (n_s <= 4).all() and \
             tuple(n_s) in self.__terminal_space:
             r = 1.0
@@ -75,11 +67,35 @@ class MazeEnv(gym.Env):
     def close(self):
         if self.viewer: self.viewer.close()
 
+    def transform(self,state,action):
+        # 卫语言
+        if state in self.__terminal_space:
+            return state, self._reward(state), True, {}
+
+        # 状态转移
+        if pd.isna(self.t[action][state]):
+            next_state = state
+        else:
+            next_state = self.t[action][state]
+
+        # 计算回报
+        r = self._reward(next_state)
+
+        # 判断是否终止
+        is_terminal = False
+        if next_state in self.__terminal_space:
+            is_terminal = True
+
+        return next_state, r, is_terminal, {}
+
     def step(self, action):
         # 系统当前状态
         state = self.__state
+
+        # 卫语言
         if state in self.__terminal_space:
-            return state, 0, True, {}
+            return state, self._reward(state), True, {}
+
         # 状态转移
         if pd.isna(self.t[action][state]):
             next_state = state
@@ -87,11 +103,13 @@ class MazeEnv(gym.Env):
             next_state = self.t[action][state]
         self.__state = next_state
 
+        # 计算回报
+        r = self._reward(next_state)
+
+        # 判断是否终止
         is_terminal = False
         if next_state in self.__terminal_space:
             is_terminal = True
-
-        r = self._reward(self.__state, action)
 
         return next_state, r, is_terminal, {}
 

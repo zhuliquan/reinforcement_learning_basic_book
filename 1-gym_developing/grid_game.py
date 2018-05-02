@@ -2,18 +2,6 @@
 # -*- coding:utf-8 -*-
 # author : zlq16
 # date   : 2018/4/7
-# 将编写的代码拷贝到/gym/envs/classic_control
-# 在里面添加 __init__.py里面添加
-# from gym.envs.classic_control.grid_game import GridEnv
-# 将gym/envs/__init__.py
-# 里面添加
-# register(
-#     id='GridGame-v0',
-#     entry_point='gym.envs.classic_control:GridEnv',
-# 	  max_episode_steps=200,
-#     reward_threshold=100.0,
-#    )
-
 import gym
 from gym.utils import seeding
 import logging
@@ -58,11 +46,11 @@ class GridEnv(gym.Env):
         self.__state = None
         self.seed()
 
-    def _reward(self, state, action):
+    def _reward(self, state):
         r = 0.0
-        if action == "s" and state in (1, 5):
+        if state in (6,8):
             r = -1.0
-        elif action == "s" and state == 3:
+        elif state == 7:
             r = 1.0
         return r
 
@@ -73,12 +61,35 @@ class GridEnv(gym.Env):
     def close(self):
         if self.viewer: self.viewer.close()
 
+    def transform(self,state,action):
+        #卫语句
+        if state in self.__terminal_space:
+            return state, self._reward(state), True, {}
+
+        # 状态转移
+        if pd.isna(self.t.loc[state, action]):
+            next_state = state
+        else:
+            next_state = self.t.loc[state, action]
+
+        # 计算回报
+        r = self._reward(next_state)
+
+        # 判断是否终止
+        is_terminal = False
+        if next_state in self.__terminal_space:
+            is_terminal = True
+
+        return next_state, r, is_terminal, {}
 
     def step(self, action):
         # 系统当前状态
         state = self.__state
+
+        # 卫语句
         if state in self.__terminal_space:
-            return state, 0, True, {}
+            return state, self._reward(state), True, {}
+
         # 状态转移
         if pd.isna(self.t.loc[state, action]):
             next_state = state
@@ -86,11 +97,13 @@ class GridEnv(gym.Env):
             next_state = self.t.loc[state, action]
         self.__state = next_state
 
+        #计算回报
+        r = self._reward(next_state)
+
+        #判断是否终止
         is_terminal = False
         if next_state in self.__terminal_space:
             is_terminal = True
-
-        r = self._reward(self.__state, action)
 
         return next_state, r, is_terminal, {}
 
