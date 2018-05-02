@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e204aa0-9662-4760-a926-74da9a3fac90" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/1-gym_developing/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/1-gym_developing/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-dynamic_program/maze_game_with_dynamic_program.py" beforeDir="false" afterPath="$PROJECT_DIR$/3-dynamic_program/maze_game_with_dynamic_program.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-monte_carlo/monte_carlo_evaluate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4-monte_carlo/monte_carlo_sample.py" beforeDir="false" afterPath="$PROJECT_DIR$/4-monte_carlo/monte_carlo_sample.py" afterDir="false" />
     </list>
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,44 +41,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="monte_carlo_sample.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="monte_carlo_sample.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/4-monte_carlo/monte_carlo_sample.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="336">
+              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/1-gym_developing/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="189">
-                <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-              </first_editor>
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="315">
-                <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-              </first_editor>
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
+      <file leaf-file-name="monte_carlo_evaluate.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/4-monte_carlo/monte_carlo_evaluate.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -86,6 +76,9 @@
       <list>
         <option value="$PROJECT_DIR$/3-dynamic_program/maze_game_with_dynamic_program.py" />
         <option value="$PROJECT_DIR$/1-gym_developing/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/4-monte_carlo/monte_carlo_evaluate.py" />
+        <option value="$PROJECT_DIR$/4-monte_carlo/monte_carlo_sample.py" />
       </list>
     </option>
   </component>
@@ -97,6 +90,11 @@
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="374" />
+    <option name="width" value="697" />
+    <option name="height" value="745" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -117,12 +115,18 @@
             <path>
               <item name="reinforcement_learning_zlq" type="b2602c69:ProjectViewProjectNode" />
               <item name="reinforcement_learning_zlq" type="462c0819:PsiDirectoryNode" />
-              <item name="1-gym_developing" type="462c0819:PsiDirectoryNode" />
+              <item name="4-monte_carlo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="reinforcement_learning_zlq" type="b2602c69:ProjectViewProjectNode" />
               <item name="reinforcement_learning_zlq" type="462c0819:PsiDirectoryNode" />
-              <item name="4-monte_carlo" type="462c0819:PsiDirectoryNode" />
+              <item name="5-temporal_difference" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reinforcement_learning_zlq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reinforcement_learning_zlq" type="462c0819:PsiDirectoryNode" />
+              <item name="5-temporal_difference" type="462c0819:PsiDirectoryNode" />
+              <item name="push_box_game" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -198,21 +202,36 @@
       <option name="project" value="LOCAL" />
       <updated>1525248947784</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="complete some code in maze_game_with_dynamic_program and fix wrong word in README.md">
+      <created>1525248996191</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1525248996191</updated>
+    </task>
+    <task id="LOCAL-00008" summary="complete some code in maze_game_with_dynamic_program and fix wrong word in README.md">
+      <created>1525249053876</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1525249053876</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49702382" weight="0.32868218" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.505295" side_tool="true" weight="0.3495935" />
-      <window_info anchor="right" x="0" y="0" width="295" height="554" id="Documentation" order="8" side_tool="true" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5060514" side_tool="true" weight="0.36585367" />
+      <window_info x="0" y="0" width="295" height="554" id="Documentation" order="3" weight="0.32980332" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.49924356" visible="true" weight="0.32357723" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49924356" weight="0.1203252" />
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.494705" weight="0.1495935" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49319214" weight="0.49268293" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.494705" weight="0.44715446" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.50406504" visible="true" weight="0.25416037" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49394855" visible="true" weight="0.36585367" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.50406504" visible="true" weight="0.25416037" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="5" weight="0.32980332" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32901135" />
@@ -274,9 +293,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/OpenAI_gym/test.py" />
-    <entry file="file://$PROJECT_DIR$/6-DQN/deep_learning_video_games/wrapped_game_code/tetris_fun.py" />
-    <entry file="file://$PROJECT_DIR$/6-DQN/deep_learning_video_games/wrapped_game_code/dummy_game.py" />
     <entry file="file://$PROJECT_DIR$/6-DQN/deep_learning_video_games/wrapped_game_code/pong_fun.py" />
     <entry file="file://C:/Program Files/Python36/Lib/site-packages/tensorflow/python/framework/ops.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -430,13 +446,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/5-temporal_difference/push_box_game/env.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3044">
-          <caret line="160" column="8" selection-start-line="160" selection-start-column="8" selection-end-line="160" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/3-dynamic_program/grid_game_with_policy_iterate.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
@@ -556,10 +565,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4-monte_carlo/monte_carlo_sample.py">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="-2898" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -572,6 +586,27 @@
           <second_editor>
             <markdownNavigatorState />
           </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5-temporal_difference/push_box_game/env.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1658">
+          <caret line="160" column="8" selection-start-line="160" selection-start-column="8" selection-end-line="160" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4-monte_carlo/monte_carlo_evaluate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4-monte_carlo/monte_carlo_sample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
         </state>
       </provider>
     </entry>
