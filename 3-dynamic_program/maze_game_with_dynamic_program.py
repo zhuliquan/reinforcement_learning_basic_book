@@ -20,20 +20,11 @@ def value_iterate(env):
         for state in state_space:
             v_s_a = pd.Series()
             for action in action_space:
-                state_, reward, is_done, _ = env.step(action)
+                state_, reward, is_done, _ = env.transform(state,action)
                 if is_done:
                     v_s_a[action] = reward
                 else:
                     v_s_a[action] = reward + gamma*v_s_[state_]
-                # 还原
-                if action == 'n':
-                    env.step('s')
-                elif action == 's':
-                    env.step('n')
-                elif action == 'w':
-                    env.step('e')
-                elif action == 'e':
-                    env.step('w')
             v_s[state] = v_s_a.max()
             policy[state] = np.random.choice((v_s_a == v_s[state]).index)
         if (np.abs(v_s_ - v_s) < 1e-8).all():
