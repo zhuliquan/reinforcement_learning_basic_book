@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e204aa0-9662-4760-a926-74da9a3fac90" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-gym_developing/grid_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/1-gym_developing/grid_game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-gym_developing/maze_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/1-gym_developing/maze_game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5-temporal_difference/push_box_game/agent.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5-temporal_difference/push_box_game/env.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5-temporal_difference/push_box_game/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5-temporal_difference/push_box_game/q_table.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5-temporal_difference/q_learning_algortihm.png" beforeDir="false" afterPath="$PROJECT_DIR$/5-temporal_difference/q_learning_algortihm.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5-temporal_difference/sarsa_algorithm.png" beforeDir="false" afterPath="$PROJECT_DIR$/5-temporal_difference/sarsa_algorithm.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,69 +41,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="agent.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/5-temporal_difference/agent.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="75" column="41" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="41" />
-              <folding>
-                <element signature="e#1448#1476#0" />
-                <element signature="e#1528#1563#0" />
-                <element signature="e#836#840#0" />
-                <element signature="e#886#890#0" />
-              </folding>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="146">
+                <caret line="26" column="126" selection-start-line="26" selection-start-column="126" selection-end-line="26" selection-end-column="126" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="push_box_game.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/5-temporal_difference/push_box_game.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="936">
-              <caret line="55" column="43" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="43" />
-              <folding>
-                <element signature="e#83#93#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="grid_game.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1-gym_developing/grid_game.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="180" column="16" lean-forward="true" selection-start-line="4" selection-end-line="180" selection-end-column="16" />
-              <folding>
-                <element signature="e#83#93#0" expanded="true" />
-                <element signature="e#257#349#0" />
-                <element signature="e#384#1342#0" />
-                <element signature="e#1382#1499#0" />
-                <element signature="e#1540#1608#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="maze_game.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/1-gym_developing/maze_game.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="162" lean-forward="true" selection-start-line="162" selection-end-line="162" />
-              <folding>
-                <element signature="e#83#93#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/5-temporal_difference/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
-              <folding>
-                <element signature="e#85#95#0" expanded="true" />
-              </folding>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/5-temporal_difference/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="42">
+                <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
             </state>
           </provider>
         </entry>
@@ -137,7 +89,6 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/4-monte_carlo/monte_carlo_evaluate.py" />
         <option value="$PROJECT_DIR$/4-monte_carlo/monte_carlo_sample.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/1-gym_developing/push_box_game.py" />
         <option value="$PROJECT_DIR$/5-temporal_difference/go_maze.py" />
         <option value="$PROJECT_DIR$/5-temporal_difference/push_box_game/main.py" />
@@ -149,6 +100,7 @@
         <option value="$PROJECT_DIR$/5-temporal_difference/main.py" />
         <option value="$PROJECT_DIR$/5-temporal_difference/push_box_game.py" />
         <option value="$PROJECT_DIR$/5-temporal_difference/agent.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -186,11 +138,6 @@
             <path>
               <item name="reinforcement_learning_zlq" type="b2602c69:ProjectViewProjectNode" />
               <item name="reinforcement_learning_zlq" type="462c0819:PsiDirectoryNode" />
-              <item name="1-gym_developing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="reinforcement_learning_zlq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reinforcement_learning_zlq" type="462c0819:PsiDirectoryNode" />
               <item name="5-temporal_difference" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -210,6 +157,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\zlq16\Documents\WorkSpace\reinforcement_learning_zlq\5-temporal_difference\push_box_game" />
       <recent name="E:\zlq16\Documents\WorkSpace\reinforcement_learning_zlq\5-temporal_difference" />
     </key>
   </component>
@@ -258,7 +206,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5-temporal_difference/main.py" />
+      <option name="SCRIPT_NAME" value="E:\zlq16\Documents\WorkSpace\reinforcement_learning_zlq\5-temporal_difference\push_box_game\main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -277,7 +225,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\zlq16\Documents\WorkSpace\reinforcement_learning_zlq\5-temporal_difference\main.py" />
+      <option name="SCRIPT_NAME" value="E:\zlq16\Documents\WorkSpace\reinforcement_learning_zlq\5-temporal_difference\push_box_game\main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -391,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1525253797984</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="make push_box_game gym env and improve grid_game env and maze_game env">
+      <created>1525449153129</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1525449153129</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -401,10 +356,10 @@
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49702382" weight="0.32868218" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5060514" side_tool="true" weight="0.36585367" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49924356" weight="0.57723576" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49924356" weight="0.34796748" />
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.494705" weight="0.32520324" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49319214" visible="true" weight="0.35284552" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49394855" weight="0.099186994" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49319214" weight="0.37886178" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49394855" visible="true" weight="0.41626015" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.50406504" visible="true" weight="0.21482602" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="5" weight="0.32980332" />
@@ -467,7 +422,8 @@
     <MESSAGE value="create directory for gym developing,and add grid_game.py and maze_game.py env's files,and fix some bug in these env's files" />
     <MESSAGE value="complete some code in maze_game_with_dynamic_program and fix wrong word in README.md" />
     <MESSAGE value="complete monte carlo method for free model" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete monte carlo method for free model" />
+    <MESSAGE value="make push_box_game gym env and improve grid_game env and maze_game env" />
+    <option name="LAST_COMMIT_MESSAGE" value="make push_box_game gym env and improve grid_game env and maze_game env" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -663,23 +619,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="104">
-            <caret line="5" column="121" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="121" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files/Python36/Lib/site-packages/gym/core.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-168">
@@ -737,18 +676,6 @@
     <entry file="file://$PROJECT_DIR$/5-temporal_difference/q_table.pkl">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/5-temporal_difference/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="42">
-            <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files/Python36/Lib/site-packages/numpy/core/shape_base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="106">
@@ -763,7 +690,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/5-temporal_difference/main.py">
+    <entry file="file://$PROJECT_DIR$/5-temporal_difference/push_box_game/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
@@ -773,23 +700,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/5-temporal_difference/agent.py">
+    <entry file="file://$PROJECT_DIR$/1-gym_developing/maze_game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="75" column="41" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="41" />
-          <folding>
-            <element signature="e#1448#1476#0" />
-            <element signature="e#1528#1563#0" />
-            <element signature="e#836#840#0" />
-            <element signature="e#886#890#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5-temporal_difference/push_box_game.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="55" column="43" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="43" />
+        <state relative-caret-position="2770">
+          <caret line="162" lean-forward="true" selection-start-line="162" selection-end-line="162" />
           <folding>
             <element signature="e#83#93#0" expanded="true" />
           </folding>
@@ -810,13 +724,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1-gym_developing/maze_game.py">
+    <entry file="file://$PROJECT_DIR$/5-temporal_difference/push_box_game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="162" lean-forward="true" selection-start-line="162" selection-end-line="162" />
+        <state relative-caret-position="747">
+          <caret line="55" column="43" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="43" />
           <folding>
             <element signature="e#83#93#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5-temporal_difference/push_box_game/agent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-501">
+          <caret line="75" column="41" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="41" />
+          <folding>
+            <element signature="e#1448#1476#0" />
+            <element signature="e#1528#1563#0" />
+            <element signature="e#836#840#0" />
+            <element signature="e#886#890#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5-temporal_difference/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="42">
+            <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="146">
+            <caret line="26" column="126" selection-start-line="26" selection-start-column="126" selection-end-line="26" selection-end-column="126" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
         </state>
       </provider>
     </entry>
