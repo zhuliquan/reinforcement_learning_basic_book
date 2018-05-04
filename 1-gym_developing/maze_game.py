@@ -89,27 +89,11 @@ class MazeEnv(gym.Env):
         return next_state, r, is_terminal, {}
 
     def step(self, action):
-        # 系统当前状态
         state = self.__state
 
-        # 卫语言
-        if state in self.__terminal_space:
-            return state, self._reward(state), True, {}
+        next_state, r, is_terminal,_ = self.transform(state,action)
 
-        # 状态转移
-        if pd.isna(self.t[action][state]):
-            next_state = state
-        else:
-            next_state = self.t[action][state]
         self.__state = next_state
-
-        # 计算回报
-        r = self._reward(next_state)
-
-        # 判断是否终止
-        is_terminal = False
-        if next_state in self.__terminal_space:
-            is_terminal = True
 
         return next_state, r, is_terminal, {}
 

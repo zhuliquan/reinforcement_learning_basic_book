@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e204aa0-9662-4760-a926-74da9a3fac90" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4-monte_carlo/monte_carlo_evaluate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4-monte_carlo/monte_carlo_sample.py" beforeDir="false" afterPath="$PROJECT_DIR$/4-monte_carlo/monte_carlo_sample.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-gym_developing/grid_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/1-gym_developing/grid_game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-gym_developing/maze_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/1-gym_developing/maze_game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5-temporal_difference/push_box_game/agent.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5-temporal_difference/push_box_game/env.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5-temporal_difference/push_box_game/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5-temporal_difference/push_box_game/q_table.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5-temporal_difference/q_learning_algortihm.png" beforeDir="false" afterPath="$PROJECT_DIR$/5-temporal_difference/q_learning_algortihm.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5-temporal_difference/sarsa_algorithm.png" beforeDir="false" afterPath="$PROJECT_DIR$/5-temporal_difference/sarsa_algorithm.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,12 +27,14 @@
     <SUITE FILE_PATH="coverage/reinforcement_learning$maze_env.coverage" NAME="maze_env Coverage Results" MODIFIED="1509249528187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/push_box_game" />
     <SUITE FILE_PATH="coverage/reinforcement_learning_zlq$grid_mdq.coverage" NAME="grid_mdq Coverage Results" MODIFIED="1523104955551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2-MDP" />
     <SUITE FILE_PATH="coverage/reinforcement_learning_zlq$deep_q_network.coverage" NAME="deep_q_network Coverage Results" MODIFIED="1523193597394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6-DQN/deep_learning_flappy_bird" />
-    <SUITE FILE_PATH="coverage/reinforcement_learning_zlq$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1523193950307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5-TD/push_box_game" />
+    <SUITE FILE_PATH="coverage/reinforcement_learning_zlq$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1525448980482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5-temporal_difference" />
+    <SUITE FILE_PATH="coverage/reinforcement_learning_zlq$push_box_game.coverage" NAME="push_box_game Coverage Results" MODIFIED="1525447460920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5-temporal_difference" />
     <SUITE FILE_PATH="coverage/reinforcement_learning_zlq$deep_q_network__1_.coverage" NAME="deep_q_network (1) Coverage Results" MODIFIED="1522230823561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deep_learning_flappy_bird" />
     <SUITE FILE_PATH="coverage/reinforcement_learning_zlq$grid_game.coverage" NAME="grid_game Coverage Results" MODIFIED="1523280964042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4-monte_carlo" />
     <SUITE FILE_PATH="coverage/reinforcement_learning_zlq$find_gold_coin.coverage" NAME="find_gold_coin Coverage Results" MODIFIED="1523159786281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2-MDP" />
+    <SUITE FILE_PATH="coverage/reinforcement_learning_zlq$env.coverage" NAME="env Coverage Results" MODIFIED="1525418058766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5-temporal_difference/push_box_game" />
     <SUITE FILE_PATH="coverage/reinforcement_learning_zlq$grid_game_with_average_policy.coverage" NAME="grid_game_with_average_policy Coverage Results" MODIFIED="1523364604940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3-dynamic_program" />
-    <SUITE FILE_PATH="coverage/reinforcement_learning_zlq$main.coverage" NAME="main Coverage Results" MODIFIED="1523193394274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5-TD/go_maze" />
+    <SUITE FILE_PATH="coverage/reinforcement_learning_zlq$main.coverage" NAME="main Coverage Results" MODIFIED="1525418900767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5-temporal_difference/push_box_game" />
     <SUITE FILE_PATH="coverage/reinforcement_learning_zlq$maze_game.coverage" NAME="maze_game Coverage Results" MODIFIED="1523180931490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2-MDP" />
     <SUITE FILE_PATH="coverage/reinforcement_learning_zlq$grid_game_with_policy_iterate.coverage" NAME="grid_game_with_policy_iterate Coverage Results" MODIFIED="1523412743879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3-dynamic_program" />
     <SUITE FILE_PATH="coverage/reinforcement_learning_zlq$maze_game_with_dynamic_program.coverage" NAME="maze_game_with_dynamic_program Coverage Results" MODIFIED="1523361617476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3-dynamic_program" />
@@ -41,20 +50,69 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="monte_carlo_sample.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/4-monte_carlo/monte_carlo_sample.py">
+      <file leaf-file-name="agent.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/5-temporal_difference/agent.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+            <state relative-caret-position="138">
+              <caret line="75" column="41" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="41" />
+              <folding>
+                <element signature="e#1448#1476#0" />
+                <element signature="e#1528#1563#0" />
+                <element signature="e#836#840#0" />
+                <element signature="e#886#890#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="monte_carlo_evaluate.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/4-monte_carlo/monte_carlo_evaluate.py">
+      <file leaf-file-name="push_box_game.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/5-temporal_difference/push_box_game.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+            <state relative-caret-position="936">
+              <caret line="55" column="43" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="43" />
+              <folding>
+                <element signature="e#83#93#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="grid_game.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1-gym_developing/grid_game.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="180" column="16" lean-forward="true" selection-start-line="4" selection-end-line="180" selection-end-column="16" />
+              <folding>
+                <element signature="e#83#93#0" expanded="true" />
+                <element signature="e#257#349#0" />
+                <element signature="e#384#1342#0" />
+                <element signature="e#1382#1499#0" />
+                <element signature="e#1540#1608#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="maze_game.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1-gym_developing/maze_game.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="162" lean-forward="true" selection-start-line="162" selection-end-line="162" />
+              <folding>
+                <element signature="e#83#93#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/5-temporal_difference/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+              <folding>
+                <element signature="e#85#95#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,6 +137,18 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/4-monte_carlo/monte_carlo_evaluate.py" />
         <option value="$PROJECT_DIR$/4-monte_carlo/monte_carlo_sample.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/1-gym_developing/push_box_game.py" />
+        <option value="$PROJECT_DIR$/5-temporal_difference/go_maze.py" />
+        <option value="$PROJECT_DIR$/5-temporal_difference/push_box_game/main.py" />
+        <option value="$PROJECT_DIR$/5-temporal_difference/push_box_game/env.py" />
+        <option value="$PROJECT_DIR$/5-temporal_difference/env.py" />
+        <option value="$PROJECT_DIR$/5-temporal_difference/README.md" />
+        <option value="$PROJECT_DIR$/1-gym_developing/maze_game.py" />
+        <option value="$PROJECT_DIR$/1-gym_developing/grid_game.py" />
+        <option value="$PROJECT_DIR$/5-temporal_difference/main.py" />
+        <option value="$PROJECT_DIR$/5-temporal_difference/push_box_game.py" />
+        <option value="$PROJECT_DIR$/5-temporal_difference/agent.py" />
       </list>
     </option>
   </component>
@@ -92,7 +162,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="374" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="697" />
     <option name="height" value="745" />
   </component>
@@ -115,7 +186,7 @@
             <path>
               <item name="reinforcement_learning_zlq" type="b2602c69:ProjectViewProjectNode" />
               <item name="reinforcement_learning_zlq" type="462c0819:PsiDirectoryNode" />
-              <item name="4-monte_carlo" type="462c0819:PsiDirectoryNode" />
+              <item name="1-gym_developing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="reinforcement_learning_zlq" type="b2602c69:ProjectViewProjectNode" />
@@ -125,14 +196,22 @@
             <path>
               <item name="reinforcement_learning_zlq" type="b2602c69:ProjectViewProjectNode" />
               <item name="reinforcement_learning_zlq" type="462c0819:PsiDirectoryNode" />
-              <item name="5-temporal_difference" type="462c0819:PsiDirectoryNode" />
-              <item name="push_box_game" type="462c0819:PsiDirectoryNode" />
+              <item name="6-value_function_approximate" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\zlq16\Documents\WorkSpace\reinforcement_learning_zlq\5-temporal_difference" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -146,15 +225,104 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Python.main (1)">
+    <configuration name="env" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="reinforcement_learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5-temporal_difference/push_box_game" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\zlq16\Documents\WorkSpace\reinforcement_learning_zlq\5-temporal_difference\env.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="reinforcement_learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5-temporal_difference" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5-temporal_difference/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="reinforcement_learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5-temporal_difference/push_box_game" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\zlq16\Documents\WorkSpace\reinforcement_learning_zlq\5-temporal_difference\main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="push_box_game" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="reinforcement_learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5-temporal_difference" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5-temporal_difference/push_box_game.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.env" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.push_box_game" />
+      <item itemvalue="Python.main (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.push_box_game" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.env" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\zhuliquan\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c18b35e2-c9bc-424e-a35b-58e0ec458140" name="Default" comment="" />
-      <changelist id="" name="New changelist" comment="" />
-      <changelist id="" name="New changelist (2)" comment="" />
-      <changelist id="" name="New changelist (3)" comment="" />
+      <changelist id="0e204aa0-9662-4760-a926-74da9a3fac90" name="Default" comment="" />
       <created>1507038322181</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -216,7 +384,14 @@
       <option name="project" value="LOCAL" />
       <updated>1525249053876</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="complete monte carlo method for free model">
+      <created>1525253797984</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1525253797984</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -225,54 +400,60 @@
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49702382" weight="0.32868218" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5060514" side_tool="true" weight="0.36585367" />
-      <window_info x="0" y="0" width="295" height="554" id="Documentation" order="3" weight="0.32980332" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49924356" weight="0.1203252" />
-      <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.494705" weight="0.1495935" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49319214" weight="0.49268293" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49394855" visible="true" weight="0.36585367" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.50406504" visible="true" weight="0.25416037" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49924356" weight="0.57723576" />
+      <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.494705" weight="0.32520324" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49319214" visible="true" weight="0.35284552" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49394855" weight="0.099186994" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.50406504" visible="true" weight="0.21482602" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="5" weight="0.32980332" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32901135" />
       <window_info anchor="right" x="465" y="61" width="436" height="615" id="SciView" order="6" weight="0.32980332" />
       <window_info id="Structure" order="1" sideWeight="0.49593496" side_tool="true" weight="0.22239032" />
       <window_info id="Favorites" order="2" sideWeight="0.3659148" side_tool="true" weight="0.2193646" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3987034" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.398374" />
       <window_info anchor="right" id="R Graphics" order="3" weight="0.32980332" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="R Packages" order="4" weight="0.32980332" />
+      <window_info x="0" y="0" width="295" height="554" id="Documentation" order="3" weight="0.32980332" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32901135" />
       <window_info anchor="right" id="Data View" order="7" weight="0.32980332" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.50406504" visible="true" weight="0.21482602" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Data View" order="6" weight="0.32980332" />
-      <window_info id="Structure" order="1" weight="0.24962178" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49924356" weight="0.57723576" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32901135" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32901135" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49319214" visible="true" weight="0.3771252" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22541603" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32901135" />
-      <window_info anchor="right" x="0" y="0" width="295" height="554" id="Documentation" order="3" weight="0.32980332" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32612056" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50680786" side_tool="true" weight="0.32761312" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="5" />
+      <window_info anchor="right" x="465" y="61" width="436" height="615" id="SciView" order="6" weight="0.32980332" />
+      <window_info id="Structure" order="1" sideWeight="0.49593496" side_tool="true" weight="0.22239032" />
+      <window_info anchor="right" id="R Graphics" order="3" weight="0.32980332" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49702382" weight="0.32868218" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49319214" visible="true" weight="0.35284552" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32901135" />
+      <window_info anchor="right" id="R Packages" order="4" weight="0.32980332" />
+      <window_info anchor="bottom" id="Python Console" order="8" sideWeight="0.494705" weight="0.32520324" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3987034" />
-      <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.49546143" weight="0.3709428" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.398374" />
+      <window_info x="0" y="0" width="295" height="554" id="Documentation" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32980332" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49394855" weight="0.099186994" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5060514" side_tool="true" weight="0.36585367" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Data View" order="7" weight="0.32980332" />
+      <window_info id="Favorites" order="2" sideWeight="0.3659148" side_tool="true" weight="0.2193646" />
     </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -285,70 +466,15 @@
     <MESSAGE value="create directory for gym developing,and add grid_game.py and maze_game.py env's files" />
     <MESSAGE value="create directory for gym developing,and add grid_game.py and maze_game.py env's files,and fix some bug in these env's files" />
     <MESSAGE value="complete some code in maze_game_with_dynamic_program and fix wrong word in README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete some code in maze_game_with_dynamic_program and fix wrong word in README.md" />
+    <MESSAGE value="complete monte carlo method for free model" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete monte carlo method for free model" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="21" />
+      <option name="time" value="26" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/6-DQN/deep_learning_video_games/wrapped_game_code/pong_fun.py" />
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/tensorflow/python/framework/ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="2961" column="21" selection-start-line="2961" selection-start-column="14" selection-end-line="2961" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/marlov_dicision_process.py" />
-    <entry file="file://$PROJECT_DIR$/Q_learning_test.py" />
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/pandas/core/dtypes/missing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/gym/envs/classic_control/rendering.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1684">
-          <caret line="175" selection-start-line="175" selection-end-line="175" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2-markov_decision_process/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="19" selection-start-line="3" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6-DQN/deep_learning_video_games/deep_q_network.py" />
-    <entry file="file://$PROJECT_DIR$/5-temporal_difference/go_maze/maze_env.py" />
-    <entry file="file://$PROJECT_DIR$/5-temporal_difference/push_box_game/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5-temporal_difference/go_maze/main.py" />
-    <entry file="file://$PROJECT_DIR$/5-temporal_difference/go_maze/RL_brain.py" />
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/pandas/core/series.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="622" selection-start-line="622" selection-end-line="622" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/pandas/core/indexes/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="2556" selection-start-line="2556" selection-end-line="2556" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/-1120166012/numpy/random/mtrand.py" />
     <entry file="file://C:/Program Files/Python36/Lib/site-packages/pandas/core/indexing.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -375,13 +501,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5-temporal_difference/push_box_game/agent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -460,101 +579,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2-markov_decision_process/grid_game.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="56" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2-markov_decision_process/maze_game.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1596">
-          <caret line="80" column="7" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
-          <folding>
-            <element signature="e#3024#5022#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2-markov_decision_process/core.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-gym_developing/core.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/2-markov_decision_process/grid_game.py" />
+    <entry file="file://$PROJECT_DIR$/2-markov_decision_process/maze_game.py" />
+    <entry file="file://$PROJECT_DIR$/2-markov_decision_process/core.py" />
     <entry file="file://$PROJECT_DIR$/2-markov_decision_process/game.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-gym_developing/grid_game.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
-          <folding>
-            <element signature="e#257#349#0" />
-            <element signature="e#384#1342#0" />
-            <element signature="e#1390#1544#0" />
-            <element signature="e#1585#1653#0" />
-            <element signature="e#1684#1719#0" />
-            <element signature="e#2241#2775#0" />
-            <element signature="e#2780#2863#0" />
-            <element signature="e#2922#6306#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/gym/core.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-399">
-          <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-gym_developing/maze_game.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="e#257#349#0" />
-            <element signature="e#383#1054#0" />
-            <element signature="e#1091#1632#0" />
-            <element signature="e#1680#2104#0" />
-            <element signature="e#2145#2213#0" />
-            <element signature="e#2244#2279#0" />
-            <element signature="e#2336#2761#0" />
-            <element signature="e#2317#2822#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="315">
-            <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -577,10 +608,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/4-monte_carlo/monte_carlo_sample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4-monte_carlo/monte_carlo_evaluate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/rl/agents/cem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1260">
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-gym_developing/push_box_game.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5-temporal_difference/go_maze.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#83#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/rl/agents/sarsa.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2191">
+          <caret line="116" column="35" lean-forward="true" selection-start-line="116" selection-start-column="35" selection-end-line="116" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/1-gym_developing/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="189">
+          <first_editor relative-caret-position="365">
             <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           </first_editor>
           <second_editor>
@@ -589,24 +663,160 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/5-temporal_difference/push_box_game/env.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1658">
-          <caret line="160" column="8" selection-start-line="160" selection-start-column="8" selection-end-line="160" selection-end-column="8" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="104">
+            <caret line="5" column="121" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="121" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4-monte_carlo/monte_carlo_evaluate.py">
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/gym/core.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+        <state relative-caret-position="-168">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4-monte_carlo/monte_carlo_sample.py">
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/pyglet/window/win32/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        <state relative-caret-position="57">
+          <caret line="316" selection-start-line="316" selection-end-line="316" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/gym/envs/classic_control/push_box_game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5-temporal_difference/env.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1966">
+          <caret line="132" column="8" selection-start-line="132" selection-start-column="8" selection-end-line="132" selection-end-column="8" />
+          <folding>
+            <element signature="e#478#496#0" expanded="true" />
+            <element signature="e#1140#1616#0" />
+            <element signature="e#4407#4987#0" />
+            <element signature="e#6437#6474#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/gym/envs/classic_control/rendering.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="185" column="8" selection-start-line="185" selection-start-column="8" selection-end-line="185" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5-temporal_difference/q_learning_algortihm.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/numpy/core/_methods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5-temporal_difference/q_table.pkl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5-temporal_difference/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="42">
+            <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/numpy/core/shape_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="282" selection-start-line="282" selection-end-line="282" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/numpy/core/numeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="543" selection-start-line="543" selection-end-line="543" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5-temporal_difference/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+          <folding>
+            <element signature="e#85#95#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5-temporal_difference/agent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="75" column="41" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="41" />
+          <folding>
+            <element signature="e#1448#1476#0" />
+            <element signature="e#1528#1563#0" />
+            <element signature="e#836#840#0" />
+            <element signature="e#886#890#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5-temporal_difference/push_box_game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="55" column="43" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="43" />
+          <folding>
+            <element signature="e#83#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-gym_developing/grid_game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="180" column="16" lean-forward="true" selection-start-line="4" selection-end-line="180" selection-end-column="16" />
+          <folding>
+            <element signature="e#83#93#0" expanded="true" />
+            <element signature="e#257#349#0" />
+            <element signature="e#384#1342#0" />
+            <element signature="e#1382#1499#0" />
+            <element signature="e#1540#1608#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-gym_developing/maze_game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="162" lean-forward="true" selection-start-line="162" selection-end-line="162" />
+          <folding>
+            <element signature="e#83#93#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
