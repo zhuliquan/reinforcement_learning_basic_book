@@ -54,7 +54,7 @@ class MazeEnv(gym.Env):
 
     def _reward(self, state):
         r = 0.0
-        n_s = state
+        n_s = np.array(state)
         if (0 <= n_s).all() and (n_s <= 4).all() and \
             tuple(n_s) in self.__terminal_space:
             r = 1.0
