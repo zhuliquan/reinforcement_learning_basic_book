@@ -31,3 +31,14 @@ register(
 	reward_threshold=100.0,
 )
 ```
+---
+6. 验证配置成功
+运行下面python代码
+```python
+import gym
+env = gym.make("GridGame-v0")
+env.reset()
+env.render()
+```
+如果出现下面的界面说明配置成功
+<img src="suceess.png">
