@@ -5,18 +5,20 @@
 import pandas as pd
 import numpy as np
 
-class GridMDP():
-    def __init__(self,**kwargs):
-        for k,v in kwargs.items():
+
+class GridMDP:
+    def __init__(self, **kwargs):
+        for k, v in kwargs.items():
             setattr(self, k, v)
         self.__action_dir = pd.Series(
-            data = [np.array((-1, 0)),
-                    np.array((1, 0)),
-                    np.array((0, -1)),
-                    np.array((0, 1))],
-            index = self.action_space)
+            data=[np.array((-1, 0)),
+                  np.array((1, 0)),
+                  np.array((0, -1)),
+                  np.array((0, 1))],
+            index=self.action_space)
         self.terminal_space = [(0, 0), (3, 3)]
-    def transform(self,state,action):
+
+    def transform(self, state, action):
         dir = self.__action_dir[action]
         state_ = np.array(state) + dir
         if (state_ >= 0).all() and (state_ < 4).all():
@@ -24,6 +26,7 @@ class GridMDP():
         else:
             state_ = state
         return state_
+
 
 def value_iterate(mdp):
     state_space = mdp.state_space
@@ -51,18 +54,20 @@ def value_iterate(mdp):
             break
     return policy
 
+
 def main():
     state_space = [(i, j) for i in range(4) for j in range(4)]
-    state_space.remove((0,0))
-    state_space.remove((3,3))
+    state_space.remove((0, 0))
+    state_space.remove((3, 3))
     mdp = GridMDP(
-        state_space  = state_space,
-        action_space = ["n","s","w","e"],
-        reward  = -1,
-        gamma    = 0.9)
+        state_space=state_space,
+        action_space=["n", "s", "w", "e"],
+        reward=-1,
+        gamma=0.9)
     policy = value_iterate(mdp)
     print("convergence policy is:")
     print(policy)
+
 
 if __name__ == '__main__':
     main()

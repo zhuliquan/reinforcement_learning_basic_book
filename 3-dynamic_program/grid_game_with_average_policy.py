@@ -15,18 +15,20 @@
 import pandas as pd
 import numpy as np
 
-class GridMDP():
-    def __init__(self,**kwargs):
-        for k,v in kwargs.items():
+
+class GridMDP:
+    def __init__(self, **kwargs):
+        for k, v in kwargs.items():
             setattr(self, k, v)
         self.__action_dir = pd.Series(
-            data = [np.array((-1, 0)),
-                    np.array((1, 0)),
-                    np.array((0, -1)),
-                    np.array((0, 1))],
-            index = self.action_space)
-        self.terminal_states = [(0,0),(3,3)]
-    def transform(self,state,action):
+            data=[np.array((-1, 0)),
+                  np.array((1, 0)),
+                  np.array((0, -1)),
+                  np.array((0, 1))],
+            index=self.action_space)
+        self.terminal_states = [(0, 0), (3, 3)]
+
+    def transform(self, state, action):
         dir = self.__action_dir[action]
         state_ = np.array(state) + dir
         if (state_ >= 0).all() and (state_ < 4).all():
@@ -35,7 +37,8 @@ class GridMDP():
             state_ = state
         return state_
 
-def average_policy(mdp, v_s,policy):
+
+def average_policy(mdp, v_s, policy):
     state_space = mdp.state_space
     action_space = mdp.action_space
     reward = mdp.reward
@@ -53,12 +56,11 @@ def average_policy(mdp, v_s,policy):
                     v_s_a[action] = v_s_[state_]
                 else:
                     v_s_a[action] = v_s_[state]
-            v_s[state] = sum([policy[action] * (reward + gamma * v_s_a[action])
-                               for action in action_space])
+            v_s[state] = sum([policy[action] * (reward + gamma * v_s_a[action]) for action in action_space])
         if (np.abs(v_s_ - v_s) < 1e-8).all():
             break
-
     return v_s
+
 
 def main():
     state_space = [(i, j) for i in range(4) for j in range(4)]
@@ -71,8 +73,10 @@ def main():
         gamma=1)
     v_s = pd.Series(np.zeros((len(state_space))),index=state_space)
     policy = pd.Series(data=0.25 * np.ones(shape=(4)), index=mdp.action_space)
-    v_s = average_policy(mdp,v_s,policy)
+    v_s = average_policy(mdp, v_s, policy)
     print("convergence valuation of __state is:")
     print(v_s)
+
+
 if __name__ == '__main__':
     main()

@@ -45,7 +45,7 @@ class Env(object):
     action_space = None
     observation_space = None
 
-    def transform(self,state,action):
+    def transform(self, state, action):
         '''
         Run one timestep of the environment's dynamics. When end of
         episode is reached, you are responsible for calling `transform()`
@@ -281,6 +281,9 @@ class Wrapper(Env):
             else:
                 break
 
+    def transform(self, state, action):
+        return self.env.transform(state, action)
+
     def step(self, action):
         if hasattr(self, "_step"):
             deprecated_warn_once("%s doesn't implement 'step' method, but it implements deprecated '_step' method." % type(self))
@@ -330,6 +333,9 @@ class Wrapper(Env):
 
 
 class ObservationWrapper(Wrapper):
+    def transform(self, state, action):
+        return self.env.transform(state, action)
+
     def step(self, action):
         observation, reward, done, info = self.env.step(action)
         return self.observation(observation), reward, done, info
@@ -344,6 +350,9 @@ class ObservationWrapper(Wrapper):
 
 
 class RewardWrapper(Wrapper):
+    def transform(self, state, action):
+        return self.env.transform(state, action)
+
     def reset(self):
         return self.env.reset()
 
@@ -357,6 +366,9 @@ class RewardWrapper(Wrapper):
 
 
 class ActionWrapper(Wrapper):
+    def transform(self, state, action):
+        return self.env.transform(state, action)
+
     def step(self, action):
         action = self.action(action)
         return self.env.step(action)

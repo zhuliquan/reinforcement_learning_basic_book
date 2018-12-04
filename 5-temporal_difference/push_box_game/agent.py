@@ -43,15 +43,16 @@ class Agent(object):
     def load_train_parameter(self, name):
         self.q_table = pd.read_pickle(name)
 
-    def learn(self,*args,**kwargs):
+    def learn(self, *args, **kwargs):
         pass
 
-    def train(self,*args,**kwargs):
+    def train(self, *args, **kwargs):
         pass
+
 
 class QLearningAgent(Agent):
 
-    def learn(self, s, a, r, s_ , done):
+    def learn(self, s, a, r, s_, done):
         self.check_state_exist(s_)
         q_predict = self.q_table[s][a]
         if not done:
@@ -60,7 +61,7 @@ class QLearningAgent(Agent):
             q_target = r  # next __state is terminal
         self.q_table[s][a] += self.learning_rate * (q_target - q_predict)  # update
 
-    def train(self,env,max_iterator=100):
+    def train(self, env, max_iterator=100):
         self.load_train_parameter("q_table.pkl")
         for episode in range(max_iterator):
 
@@ -71,9 +72,9 @@ class QLearningAgent(Agent):
 
                 action_idx = self.choose_action(observation)
 
-                observation_, reward, done,_ = env.step(self.actions[action_idx])
+                observation_, reward, done, _ = env.step(self.actions[action_idx])
 
-                print(observation,reward)
+                print(observation, reward)
 
                 self.learn(observation, action_idx, reward, observation_, done)
 
@@ -83,9 +84,10 @@ class QLearningAgent(Agent):
                     self.save_train_parameter("q_table.pkl")
                     break
 
+
 class SarsaAgent(Agent):
 
-    def learn(self, s, a, r, s_,a_,done):
+    def learn(self, s, a, r, s_, a_, done):
         self.check_state_exist(s_)
         q_predict = self.q_table[s][a]
         if not done:
@@ -94,7 +96,7 @@ class SarsaAgent(Agent):
             q_target = r  # next __state is terminal
         self.q_table[s][a] += self.learning_rate*(q_target - q_predict)  # update
 
-    def train(self,env,max_iterator=100):
+    def train(self, env, max_iterator=100):
         self.load_train_parameter("q_table.pkl")
         for episode in range(max_iterator):
 
@@ -104,7 +106,7 @@ class SarsaAgent(Agent):
                 # env.render()
                 print(observation)
 
-                observation_, reward, done,_ = env.step(self.actions[action_idx])
+                observation_, reward, done, _ = env.step(self.actions[action_idx])
 
                 action_idx_ = self.choose_action(observation_)
 

@@ -48,7 +48,7 @@ class GridEnv(gym.Env):
 
     def _reward(self, state):
         r = 0.0
-        if state in (6,8):
+        if state in (6, 8):
             r = -1.0
         elif state == 7:
             r = 1.0
@@ -59,9 +59,10 @@ class GridEnv(gym.Env):
         return [seed]
 
     def close(self):
-        if self.viewer: self.viewer.close()
+        if self.viewer:
+            self.viewer.close()
 
-    def transform(self,state,action):
+    def transform(self, state, action):
         #卫语句
         if state in self.__terminal_space:
             return state, self._reward(state), True, {}
@@ -85,7 +86,7 @@ class GridEnv(gym.Env):
     def step(self, action):
         state = self.__state
 
-        next_state, r, is_terminal,_ = self.transform(state,action)
+        next_state, r, is_terminal,_ = self.transform(state, action)
 
         self.__state = next_state
 
@@ -172,7 +173,7 @@ class GridEnv(gym.Env):
             return None
 
         self.robotrans.set_translation(self.x[self.__state - 1], self.y[self.__state - 1])
-        return self.viewer.render(return_rgb_array= mode == 'rgb_array')
+        return self.viewer.render(return_rgb_array=(mode == 'rgb_array'))
 
 
 if __name__ == '__main__':

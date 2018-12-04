@@ -23,10 +23,10 @@ class MazeEnv(gym.Env):
              [0, 0, 1, 0, 0],
              [1, 0, 0, 0, 0],
              [1, 0, 0, 1, 1],
-             [1, 0, 0, 0, 0]],dtype=np.bool)
+             [1, 0, 0, 0, 0]], dtype=np.bool)
 
-        self.observation_space = [tuple(s) for s in np.argwhere(self.map == False)]
-        self.walls  = [tuple(s) for s in np.argwhere(self.map == True)]
+        self.observation_space = [tuple(s) for s in np.argwhere(self.map == 0)]
+        self.walls = [tuple(s) for s in np.argwhere(self.map)]
         self.__terminal_space = ((4, 2),)  # 终止状态为字典格式
 
         # 状态转移的数据格式为字典
@@ -40,23 +40,23 @@ class MazeEnv(gym.Env):
     def _trans_make(self):
         for s in self.observation_space:
             for a in self.action_space:
-                n_s = np.array(s)
                 if a == "n":
-                    n_s += np.array([0,1])
+                    n_s = np.array(s) + np.array([0, 1])
                 elif a == "e":
-                    n_s += np.array([1,0])
+                    n_s = np.array(s) + np.array([1, 0])
                 elif a == "s":
-                    n_s += np.array([0,-1])
+                    n_s = np.array(s) + np.array([0, -1])
                 elif a == "w":
-                    n_s += np.array([-1,0])
-                if (0 <= n_s).all() and (n_s <= 4).all() and not self.map[n_s[0],n_s[1]]:
-                    self.t.loc[s,a] = tuple(n_s)
+                    n_s = np.array(s) + np.array([-1, 0])
+                if (0 <= n_s).all() and (n_s <= 4).all() and not self.map[n_s[0], n_s[1]]:
+                    self.t.loc[s, a] = tuple(n_s)
+                else:
+                    self.t.loc[s, a] = s
 
     def _reward(self, state):
         r = 0.0
         n_s = np.array(state)
-        if (0 <= n_s).all() and (n_s <= 4).all() and \
-            tuple(n_s) in self.__terminal_space:
+        if (0 <= n_s).all() and (n_s <= 4).all() and tuple(n_s) in self.__terminal_space:
             r = 1.0
         return r
 
@@ -65,18 +65,16 @@ class MazeEnv(gym.Env):
         return [seed]
 
     def close(self):
-        if self.viewer: self.viewer.close()
+        if self.viewer:
+            self.viewer.close()
 
-    def transform(self,state,action):
+    def transform(self, state, action):
         # 卫语言
         if state in self.__terminal_space:
             return state, self._reward(state), True, {}
 
         # 状态转移
-        if pd.isna(self.t[action][state]):
-            next_state = state
-        else:
-            next_state = self.t[action][state]
+        next_state = self.t[action][state]
 
         # 计算回报
         r = self._reward(next_state)
@@ -91,14 +89,18 @@ class MazeEnv(gym.Env):
     def step(self, action):
         state = self.__state
 
-        next_state, r, is_terminal,_ = self.transform(state,action)
+        next_state, r, is_terminal, _ = self.transform(state, action)
 
         self.__state = next_state
 
         return next_state, r, is_terminal, {}
 
     def reset(self):
-        self.__state = self.observation_space[np.random.choice(len(self.observation_space))]
+
+        while True:
+            self.__state = self.observation_space[np.random.choice(len(self.observation_space))]
+            if self.__state not in self.__terminal_space:
+                break
         return self.__state
 
     def render(self, mode='human', close=False):
@@ -117,8 +119,8 @@ class MazeEnv(gym.Env):
 
             #创建网格
             for c in range(5):
-                line = rendering.Line((0,c*unit),(screen_width,c*unit))
-                line.set_color(0,0,0)
+                line = rendering.Line((0, c*unit), (screen_width, c*unit))
+                line.set_color(0, 0, 0)
                 self.viewer.add_geom(line)
             for r in range(5):
                 line = rendering.Line((r*unit, 0), (r*unit, screen_height))
@@ -126,14 +128,14 @@ class MazeEnv(gym.Env):
                 self.viewer.add_geom(line)
 
             # 创建墙壁
-            for x,y in self.walls:
+            for x, y in self.walls:
                 r = rendering.make_polygon(
                     v=[[x * unit, y * unit],
                        [(x + 1) * unit, y * unit],
                        [(x + 1) * unit, (y + 1) * unit],
                        [x * unit, (y + 1) * unit],
                        [x * unit, y * unit]])
-                r.set_color(0,0,0)
+                r.set_color(0, 0, 0)
                 self.viewer.add_geom(r)
 
             # 创建机器人
@@ -145,16 +147,17 @@ class MazeEnv(gym.Env):
 
             # 创建出口
             self.exit = rendering.make_circle(20)
-            self.exitrans = rendering.Transform(translation=(4*unit+unit/2,2*unit+unit/2))
+            self.exitrans = rendering.Transform(translation=(4*unit+unit/2, 2*unit+unit/2))
             self.exit.add_attr(self.exitrans)
-            self.exit.set_color(0,1,0)
+            self.exit.set_color(0, 1, 0)
             self.viewer.add_geom(self.exit)
 
         if self.__state is None:
             return None
 
         self.robotrans.set_translation(self.__state[0] * unit + unit / 2, self.__state[1] * unit + unit / 2)
-        return self.viewer.render(return_rgb_array= mode == 'rgb_array')
+        return self.viewer.render(return_rgb_array=(mode == 'rgb_array'))
+
 
 if __name__ == '__main__':
     env = MazeEnv()

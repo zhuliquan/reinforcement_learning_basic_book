@@ -3,7 +3,9 @@
 # author : zlq16
 # date   : 2018/4/30
 import numpy as np
-def gen_andom(env,num):
+
+
+def gen_andom(env, num):
     state_sample = []
     action_sample = []
     reward_sample = []
@@ -17,7 +19,7 @@ def gen_andom(env,num):
         # 每次采样的过程
         while not is_done:
             a = np.random.choice(env.action_space)
-            s_,r,is_done,_ = env.transform(s,a)
+            s_, r, is_done, _ = env.transform(s, a)
             s_tmp.append(s)
             a_tmp.append(a)
             r_tmp.append(r)
@@ -25,8 +27,4 @@ def gen_andom(env,num):
         state_sample.append(s_tmp)
         action_sample.append(a_tmp)
         reward_sample.append(r_tmp)
-    return state_sample,action_sample,reward_sample
-
-
-
-
+    return state_sample, action_sample, reward_sample
